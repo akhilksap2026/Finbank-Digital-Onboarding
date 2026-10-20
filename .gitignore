@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dev-dist/
+.env
+.env.*
+!.env.example
+data/
+apps/api/data/
+uploads/
+*.log
+coverage/
+.DS_Store
+.vscode/
+.idea/

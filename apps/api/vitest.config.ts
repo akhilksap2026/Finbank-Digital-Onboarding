@@ -1,0 +1,2 @@
+import { defineConfig } from 'vitest/config'
+export default defineConfig({ test: { include: ['test/**/*.test.ts'], env: { DATABASE_URL: process.env.TEST_DATABASE_URL || 'postgres://finbank:finbank@localhost:5432/finbank_test', STORAGE_DIR: '/tmp/finbank-test-docs', AUTH_MODE: 'mock', JWT_SECRET: 'test', LOGIN_RATE_LIMIT: '1000' }, fileParallelism: false, testTimeout: 30000, hookTimeout: 60000 } })

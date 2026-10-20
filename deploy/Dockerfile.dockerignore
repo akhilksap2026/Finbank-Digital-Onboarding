@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+data
+screenshots
+samples
+**/dist
+.git
+docs/screenshots
+.env

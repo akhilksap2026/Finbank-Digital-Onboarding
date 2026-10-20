@@ -1,0 +1,7 @@
+{
+  "name": "@finbank/shared",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Domain model and validation shared by API and web",
+  "type": "module"
+}
